@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Text to Speech</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="Text">
+      <h1>Text to Speech</h1>
+
+    <script type="text/javascript" src="https://code.responsivevoice.org/responsivevoice.js">
+
+    </script>
+    <textarea id="hh" rows="8" cols="80"></textarea>
+    <input onclick="speakText();"type="button"value="Speak">
+    <script type="text/javascript">
+      function speakText(){
+        var txt=document.getElementById('hh').value;
+        responsiveVoice.speak(txt);
+      }
+    </script>
+    </div>
+  </body>
+</html>

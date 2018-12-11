@@ -1,0 +1,17 @@
+.Text{
+  width:700px;
+  height:500px;
+  margin: 0px auto;
+  padding:10px 50px 50px 50px;
+  background-color: #eee;
+  text-align: center;
+  text-decoration: underline;
+  border: 1px #eeeeee;
+  border-radius: 50px;
+  box-shadow:  10px 15px 5px #cbcbcb;
+}
+h1{
+  background-color: #ffffff;
+  text-align: center;
+  color: #57636e;
+}
